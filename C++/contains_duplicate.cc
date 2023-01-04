@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include <iostream>
 
 bool contains_duplicate(int nums[], int n)
 {
