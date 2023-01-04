@@ -29,6 +29,6 @@ int main()
     std::vector<int> x{0, 3};
     if (two_sum(nums, 4) == x)
     {
-        std::cout << "/* message */" << std::endl;
+        std::cout << "true !" << std::endl;
     }
 }
