@@ -40,6 +40,14 @@ private:
 
 int main()
 {
+    vector<string> inputs{"cat", "tac", "act", "rat", "fat", "aft"};
+    Solution x;
+    vector<vector<string>> xx = x.group_anagram(inputs);
+    for (vector<string> i : xx)
+    {
+        for (string j : i)
+            cout << j << " ";
+    }
 
     return 0;
 }
